@@ -4,9 +4,9 @@ import pyttsx3
 class listen():
     import speech_recognition as sr #biblioteca base para captura de audio
 
-    inicilize = False #saber se foi iniado o microfone
-    microphone= False #obj microfone
-    audio= False #espaço resevado para o audio, já quardado
+    __inicilize = False #saber se foi iniado o microfone
+    __microphone= False #obj microfone
+    __audio= False #espaço resevado para o audio, já quardado
 
 
     def __init__(self):
